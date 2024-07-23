@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/mylogo2.png" class="logo" alt="Logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i> </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="Main Product Image">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home / T-shirts</h6>
+            <h4 id="product-title">Men's Fashion T-shirts</h4>
+            <h2 id="product-price">$139</h2>
+            <select id="size-select-1">
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1" id="quantity">
+            <button class="normal" onclick="addToCart(1, 'img/product1.jpg', 'Product Title', 20, document.getElementById('size-select-1').value)">Add to Cart</button>
+            <h4>Product details</h4>
+            <span id="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque corrupti soluta consequatur pariatur minima et velit, beatae exercitationem distinctio, odio ipsum? Modi omnis tempore incidunt sequi, alias iusto adipisci! Assumenda error consequuntur impedit, nesciunt molestias numquam maiores, at sed libero expedita repudiandae perferendis, possimus dolorem inventore quasi doloremque cupiditate nihil reiciendis sequi! Itaque cumque, ratione expedita porro possimus veniam.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletter</h4>
+            <p>Get E-mail Updates about our latest shop and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/mylogo2.png" class="logo" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong></p>
+            <p><strong>Phone:</strong> +91-987654321</p>
+            <p><strong>Hours:</strong> 10:00 AM - 18:00 PM, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024, Abhay E-commerce</p>
+        </div>
+    </footer>
+
+    <script>
+         const products = [
+            { id: 1, title: 'Cartoon Astronaut T-shirts', price: 78, description: 'This Cartoon Astronaut T-shirt features a whimsical and unique design inspired by space exploration. Made from high-quality cotton, it offers both comfort and durability. The vibrant print is eye-catching and fun, making it a great choice for casual wear. The T-shirt is easy to care for, and its breathable fabric ensures you stay cool even on hot days. Perfect for those who love playful and imaginative fashion, this T-shirt will add a touch of adventure to your wardrobe.', img: 'img/products/p1.jpg' },
+            { id: 2, title: 'Another Cool T-shirt', price: 55, description: 'The Another Cool T-shirt is designed for those who appreciate understated elegance. It is crafted from soft, breathable fabric that feels great against the skin. The minimalist design features a subtle yet stylish graphic that complements a variety of outfits. Whether worn alone or layered under a jacket, this T-shirt adds a touch of sophistication to your casual look. Its quality construction ensures it will remain a staple in your wardrobe for years to come.', img: 'img/products/f2.jpg' },
+            { id: 3, title: 'Cool T-shirt 3', price: 60, description: 'Cool T-shirt 3 is perfect for fashion enthusiasts who enjoy a mix of comfort and style. The T-shirt features a bold graphic design that stands out, while the soft fabric ensures all-day comfort. Ideal for casual outings, this T-shirt pairs well with jeans or shorts. Its durable material maintains its shape and color even after multiple washes, making it a reliable choice for everyday wear. Embrace a stylish look with this trendy and versatile T-shirt.', img: 'img/products/p2.jpg' },
+            { id: 4, title: 'Cool T-shirt 4', price: 70, description: 'Cool T-shirt 4 combines contemporary style with superior comfort. The T-shirt is made from high-quality cotton that offers a soft touch and breathability. Its modern design features a unique graphic that adds personality to your outfit. This T-shirt is ideal for casual occasions and can be easily paired with your favorite jeans or shorts. Its classic fit and durable fabric make it a versatile addition to any wardrobe.', img: 'img/products/f4.jpg' },
+            { id: 5, title: 'Cool T-shirt 5', price: 75, description: 'Cool T-shirt 5 is designed with a focus on both comfort and style. The T-shirt boasts a sleek, modern design that is sure to turn heads. Made from premium quality fabric, it offers a soft, comfortable fit that feels great throughout the day. The vibrant colors and striking graphic make it a standout piece that can be dressed up or down. Whether for a casual day out or a relaxed evening, this T-shirt delivers both fashion and functionality.', img: 'img/products/p3.jpg' },
+            { id: 6, title: 'Cool T-shirt 6', price: 65, description: 'Cool T-shirt 6 offers a blend of classic style and modern appeal. The T-shirt is crafted from soft, breathable material that ensures comfort and durability. Its simple yet stylish design features a subtle graphic that enhances its overall look. Perfect for a laid-back day or a casual gathering, this T-shirt pairs effortlessly with jeans or shorts. The high-quality fabric and precise stitching make it a reliable and stylish choice for everyday wear.', img: 'img/products/f6.jpg' },
+            { id: 7, title: 'Cool Trousers', price: 80, description: 'Cool T-shirt 7 features a contemporary design with a focus on comfort and durability. The T-shirt is made from soft, high-quality fabric that feels great against the skin. Its bold graphic design adds a touch of modern flair, making it a great choice for casual outfits. The T-shirt maintains its shape and color after washing, ensuring long-lasting wear. Whether paired with jeans or shorts, this T-shirt offers both style and practicality.', img: 'img/products/p4.jpg' },
+            { id: 8, title: 'Cool T-shirt 8', price: 85, description: 'Cool T-shirt 8 stands out with its eye-catching design and superior comfort. Crafted from premium fabric, it provides a soft and breathable fit. The T-shirt features a striking graphic that adds personality to any outfit. Ideal for casual outings or relaxed events, this T-shirt pairs well with various bottoms. Its durable construction ensures it remains a wardrobe favorite for years. Embrace a blend of style and comfort with this fashionable T-shirt.', img: 'img/products/f8.jpg' },
+            { id: 9, title: 'Fashionable T-shirt 9', price: 90, description: 'Fashionable T-shirt 9 combines modern aesthetics with exceptional comfort. The T-shirt is made from soft, high-quality material that provides a luxurious feel. Its stylish design features a unique graphic that enhances your casual look. Whether worn with jeans or shorts, this T-shirt makes a statement. Its durable fabric and excellent fit ensure it remains a go-to piece in your wardrobe. Elevate your fashion game with this trendy and versatile T-shirt.', img: 'img/products/p5.jpg' },
+            { id: 10, title: 'Fashionable T-shirt 10', price: 95, description: 'Fashionable T-shirt 10 is designed for those who appreciate both style and comfort. The T-shirt features a modern graphic that stands out, while the soft fabric ensures a pleasant wearing experience. Ideal for casual settings, this T-shirt pairs well with a variety of bottoms. Its high-quality material maintains its shape and color over time, making it a reliable choice for everyday wear. Add a touch of contemporary fashion to your wardrobe with this chic T-shirt.', img: 'img/products/n2.jpg' },
+            { id: 11, title: 'Fashionable T-shirt 11', price: 100, description: 'Fashionable T-shirt 11 offers a perfect blend of comfort and style. The T-shirt is crafted from premium fabric that feels soft and breathable. Its eye-catching design features a trendy graphic that adds a unique touch to your outfit. Suitable for various occasions, this T-shirt pairs effortlessly with jeans or shorts. Its high-quality construction ensures durability, making it a long-lasting addition to your wardrobe. Stay stylish and comfortable with this fashionable T-shirt.', img: 'img/products/p6.jpg' },
+            { id: 12, title: 'Fashionable T-shirt 12', price: 105, description: 'Fashionable T-shirt 12 is a must-have for fashion enthusiasts. Made from soft, breathable fabric, it ensures comfort throughout the day. The T-shirt features a stylish graphic design that adds a contemporary touch to your look. Perfect for casual outings or relaxed events, this T-shirt pairs well with various bottoms. Its high-quality material and durable construction make it a reliable choice for everyday wear. Elevate your casual wardrobe with this trendy T-shirt.', img: 'img/products/n4.jpg' },
+            { id: 13, title: 'Fashionable T-shirt 13', price: 110, description: 'Fashionable T-shirt 13 is designed with a focus on both style and comfort. The T-shirt is crafted from premium-quality fabric that offers a soft and breathable fit. Its unique graphic design makes it a standout piece in any casual outfit. Ideal for various occasions, this T-shirt pairs effortlessly with jeans or shorts. Its durable material and excellent construction ensure it remains a wardrobe staple for years to come.', img: 'img/products/p7.jpg' },
+            { id: 14, title: 'Fashionable T-shirt 14', price: 115, description: 'Fashionable T-shirt 14 combines modern design with exceptional comfort. The T-shirt features a soft, high-quality fabric that feels great against the skin. Its trendy graphic design adds a stylish touch to your casual attire. Perfect for everyday wear, this T-shirt pairs well with various bottoms. Its durable construction and high-quality material ensure long-lasting wear, making it a versatile addition to your wardrobe. Stay on-trend with this fashionable T-shirt.', img: 'img/products/n6.jpg' },
+            { id: 15, title: 'Fashionable T-shirt 15', price: 120, description: 'Fashionable T-shirt 15 offers a perfect combination of comfort and style. Crafted from soft, breathable fabric, it provides a pleasant wearing experience. The T-shirt features a modern graphic design that enhances your casual look. Ideal for various occasions, this T-shirt pairs well with jeans or shorts. Its high-quality material and durable construction ensure it remains a favorite in your wardrobe. Embrace contemporary fashion with this trendy T-shirt.', img: 'img/products/p8.jpg' },
+            { id: 16, title: 'Fashionable T-shirt 16', price: 125, description: 'Fashionable T-shirt 16 is designed for those who value both comfort and style. Made from premium-quality fabric, it offers a soft and breathable fit. The T-shirt features a stylish graphic that adds a contemporary edge to your casual wardrobe. Perfect for everyday wear, it pairs effortlessly with jeans or shorts. Its durable construction and high-quality material ensure long-lasting wear. Update your wardrobe with this fashionable and chic T-shirt.', img: 'img/products/n8.jpg' }
+        ];
+
+        function getQueryParams() {
+            const params = {};
+            const queryString = window.location.search.substring(1);
+            const queries = queryString.split("&");
+            for (let i = 0; i < queries.length; i++) {
+                const pair = queries[i].split("=");
+                params[pair[0]] = decodeURIComponent(pair[1]);
+            }
+            return params;
+        }
+
+        const params = getQueryParams();
+        const productId = parseInt(params.product_id);
+
+        const product = products.find(p => p.id === productId);
+
+        if (product) {
+            document.getElementById('product-title').textContent = product.title;
+            document.getElementById('product-price').textContent = `$${product.price}`;
+            document.getElementById('product-description').textContent = product.description;
+            document.getElementById('MainImg').src = product.img;
+        } else {
+            document.getElementById('product-title').textContent = 'Product Not Found';
+        }
+
+        function addToCart() {
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const quantity = document.getElementById('quantity').value;
+            const cartItem = { id: product.id, title: product.title, price: product.price, quantity: parseInt(quantity), img: product.img };
+
+            const existingProductIndex = cart.findIndex(item => item.id === product.id);
+            if (existingProductIndex >= 0) {
+                cart[existingProductIndex].quantity += parseInt(quantity);
+            } else {
+                cart.push(cartItem);
+            }
+
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert('Product added to cart!');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get references to the main image and small images
+            const mainImg = document.getElementById('MainImg');
+            const smallImgs = document.querySelectorAll('.small-img');
+
+            // Add click event listeners to each small image
+            smallImgs.forEach(img => {
+                img.addEventListener('click', () => {
+                    // Update the src attribute of the main image
+                    mainImg.src = img.src;
+                });
+            });
+        });
+
+
+
+    
+
+    </script>
+    <script src="https://kit.fontawesome.com/5124b09b84.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
